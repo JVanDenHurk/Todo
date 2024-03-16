@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,129,0.3701855742296919) 0%, rgba(0,241,255,0.43461134453781514) 100%);
+}
+
+main{
+    padding-top: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+#submit{
+    padding-top: 600px;
+}
+
+#inputBox{
+    width: 700px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: none;
+    opacity: 0.6;
+    padding: 10px;
+    outline: none;
+}
+
+#submitButton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#submitButton:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+#submitButton:active {
+    background-color: rgb(83, 82, 82);
+}
+
+#tick{
+    padding-right: 10px;
+}
